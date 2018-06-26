@@ -1,3 +1,4 @@
+// more info on using midi message found on page 343 in Java Head First
 import javax.sound.midi.*;
 import java.io.*;
 import javax.swing.*;
