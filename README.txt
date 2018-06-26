@@ -4,10 +4,10 @@
 # OpenJDK Runtime Environment (build 1.8.0_171-b10)
 # OpenJDK 64-Bit Server VM (build 25.171-b10, mixed mode)
 
-# to compile the java files run: $ javac *.java 
-# to run a compiled file type $ java <appName>
+# To compile the java files run: $ javac *.java 
+# To run a compiled file type $ java <appName>
 
-# Example: in the that battleShip directory
+# Example: In the the battleShip directory
 # java_apps/battleShip]$javac *.java
 # java_apps/battleShip]$java DotComBust
 
