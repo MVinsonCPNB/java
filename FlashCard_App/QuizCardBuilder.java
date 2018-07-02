@@ -23,9 +23,11 @@ public class QuizCardBuilder{
         //build gui
         
         frame = new JFrame("Quiz Card Builder");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JPanel mainPanel = new JPanel();
         Font bigFont = new Font("sanserif", Font.BOLD, 24);
         question = new JTextArea(6,20);
+        question.setLineWrap(true);
         question.setWrapStyleWord(true);
         question.setFont(bigFont);
 
@@ -34,7 +36,7 @@ public class QuizCardBuilder{
         qScroller.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 
         answer = new JTextArea(6,20);
-        anwser.setLineWrap(true);
+        answer.setLineWrap(true);
         answer.setWrapStyleWord(true);
         answer.setFont(bigFont);
 
@@ -67,6 +69,7 @@ public class QuizCardBuilder{
         menuBar.add(fileMenu);
         frame.setJMenuBar(menuBar);
         frame.getContentPane().add(BorderLayout.CENTER, mainPanel);
+        frame.setSize(550,650);
         frame.setVisible(true);
     }// end of go() method
 
