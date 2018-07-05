@@ -6,8 +6,8 @@
 # Open another terminal or two and run the SimpleChatClient
         $java SimpleChatClient
 
-# Depending on how many clients you have open, messages send to 
-  the server from a client will be displayed on each client 
+# Depending on how many clients you have open, messages sent to 
+  the server from a client will be displayed on each client's 
   message board.  
 
 # For detailed informtion about this application see 
