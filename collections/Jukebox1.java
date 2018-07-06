@@ -43,7 +43,13 @@ public class Jukebox1{
         HashSet<Song> songSet = new HashSet<Song>();
         songSet.addAll(songList);
         System.out.println("Unsorted HashSet of the Arraylist<Song>");
-        System.out.println("\t" + songSet);
+        System.out.println("\t" + songSet + "\n");
+        System.out.println("Was able at add songSet.songList.get(0)? " + songSet.add(songList.get(0)));
+        
+        System.out.println("\n\nHashCodes of Each Object:");
+        for(Song s: songList){
+            System.out.println(s.hashCode() + " = " +  s.getTitle());
+        }
     }
 
     void getSongs(){
