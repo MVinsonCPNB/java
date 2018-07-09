@@ -46,10 +46,16 @@ public class Jukebox1{
         System.out.println("\t" + songSet + "\n");
         System.out.println("Was able at add songSet.songList.get(0)? " + songSet.add(songList.get(0)));
         
-        System.out.println("\n\nHashCodes of Each Object:");
+        System.out.println("\n\nOverridden HashCodes of Each Object:");
         for(Song s: songList){
             System.out.println(s.hashCode() + " = " +  s.getTitle());
         }
+
+        /* The TreeSet uses the overridden compareTo() function to sort the object*/
+        System.out.println("\n\nBy using a TreeSet the data is automatically sorted, unlike the HashSet seen above:");
+        TreeSet<Song> songTset = new TreeSet<Song>();
+        songTset.addAllsongList);
+        System.out.println("\t" + songTset + "\n");
     }
 
     void getSongs(){
