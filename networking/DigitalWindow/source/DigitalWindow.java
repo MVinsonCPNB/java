@@ -50,4 +50,3 @@ public class DigitalWindow{
     } // close go() method
 
 /*  TODO: Use JTable to order and group packets*/
-}// close class DigitalWindow
