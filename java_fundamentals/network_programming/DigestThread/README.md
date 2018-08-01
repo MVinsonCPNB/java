@@ -17,10 +17,10 @@ The DigestThread exmaple was coded using NetBeans IDE by Michael Vinson for prac
     * Navagate to {PATH_TO}/DigestThread/build/classes
     * $ java digestthread.DigestThread simpleTextFile.txt
 
-### Outputs: 
-    * This message prints before the message digest thread output prints.
-    * 32ECFDC10824B19FCAA68C27E1FE1341D9B5FDF3D05D6168B7CA6AA547E1FDE3
-    * The original length of the digest byte stream is 32 bytes.
+      * Outputs: 
+      * This message prints before the message digest thread output prints.
+      * 32ECFDC10824B19FCAA68C27E1FE1341D9B5FDF3D05D6168B7CA6AA547E1FDE3
+      * The original length of the digest byte stream is 32 bytes.
 
 ###  How Run the Project within NetBeans IDE 8.2
     * Open project with NetBeans
@@ -32,7 +32,7 @@ The DigestThread exmaple was coded using NetBeans IDE by Michael Vinson for prac
       /home/{userName}/dev/java_apps/java_fundamentals/network_programming/DigestThread/build/classes/simpleTextFile.txt
     * Click Run > Run Project
 
-### Outputs:
-    * This message prints before the message digest thread output prints.
-    * (...) 32ECFDC10824B19FCAA68C27E1FE1341D9B5FDF3D05D6168B7CA6AA547E1FDE3
-    * (...) The original length of the digest byte stream is 32 bytes.
+      * Outputs:
+      * This message prints before the message digest thread output prints.
+      * (...) 32ECFDC10824B19FCAA68C27E1FE1341D9B5FDF3D05D6168B7CA6AA547E1FDE3
+      * (...) The original length of the digest byte stream is 32 bytes.
