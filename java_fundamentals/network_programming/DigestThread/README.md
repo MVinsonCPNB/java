@@ -29,8 +29,8 @@ The DigestThread exmaple was recoded into NetBeans by Michael Vinson for practic
     * Within the Arguments text box enter your computers path to 
        the location of the projects text file used for the message digest. For
        example, my path looks like: 
-       /home/mvinson/dev/java_apps/DigestThread/build/classes/simpleTextFile.txt
-    * Click Run > Run Project
+        /home/{userName}/dev/java_apps/java_fundamentals/network_programming/DigestThread/build/classes/simpleTextFile.txt
+   * Click Run > Run Project
 
 ### Outputs:
     * This message prints before the message digest thread output prints.
