@@ -12,6 +12,7 @@ OpenJDK Runtime Environment (build 1.8.0_171-b10)
 OpenJDK 64-Bit Server VM (build 25.171-b10, mixed mode)
 
 [Fedora-Workstation](https://getfedora.org/en/workstation/download/)
+
 [NetBeans IDE](https://netbeans.org/downloads/) 
 
 ### Basic Compile and Run Linux CLI Instructions
