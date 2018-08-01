@@ -22,5 +22,5 @@ OpenJDK 64-Bit Server VM (build 25.171-b10, mixed mode)
   <dd>Compiles the .class files into the bin directory from a source directory</dd>
 
   <dt>Run a compiled .class file</dt>
-  <dd> $ java bin/<appName></dd>
+  <dd> $ java bin/{appName}</dd>
 </dl>
