@@ -15,12 +15,14 @@ import org.pcap4j.core.PcapStat;
 import org.pcap4j.core.BpfProgram.BpfCompileMode;
 import org.pcap4j.core.PcapNetworkInterface.PromiscuousMode;
 import org.pcap4j.packet.Packet;
+import org.pcap4j.packet.ArpPacket;
 import org.pcap4j.util.NifSelector;
 
 /**
  * Example found at: https://www.devdungeon.com/content/packet-capturing-java-pcap4j
  */
 
+@SuppressWarnings("javadoc")
 public class App{
 
   static PcapNetworkInterface getNetworkDevice(){
@@ -81,7 +83,7 @@ public class App{
     reader.close();
 
     if (uInput == 'y'){
-      System.out.println("User selected" + uInput);
+      System.out.println("User selected: " + uInput);
       // Set a filter to only listen for tcp packets on port 80 (HTTP)
       String filter = "tcp port 80";
       handle.setFilter(filter, BpfCompileMode.OPTIMIZE);
@@ -94,7 +96,10 @@ public class App{
         // Override the default gotPacket() function and process packet
         System.out.println(handle.getTimestamp());
         System.out.println(packet);
-        System.out.println(packet.getHeader());
+
+        if (packet.contains(ArpPacket.class)) {
+          System.out.println("ARP Packet (above)");
+        }
 
         // Dump packets to file
         try {
