@@ -5,8 +5,10 @@ The Java example repository holds a varity of examples found either on the web o
 
 ### Current Development Environment
 
-openJDK version "1.8.0.171:
+OpenJDK version "1.8.0.171:
+
 OpenJDK Runtime Environment (build 1.8.0_171-b10)
+
 OpenJDK 64-Bit Server VM (build 25.171-b10, mixed mode)
 
 [NetBeans IDE](https://netbeans.org/downloads/) 
