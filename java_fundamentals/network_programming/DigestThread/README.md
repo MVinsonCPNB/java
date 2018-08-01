@@ -3,7 +3,7 @@ DigestThread Example
 
 The DigestThread example can be studied in detail within the [Java Network Programming 4th Edition book](http://shop.oreilly.com/product/0636920028420.do), written by Elliotte Rusty Harold.
  
-The DigestThread exmaple was coded using NetBeans IDE by Michael Vinson for practice purposes.
+The DigestThread example re-coded using NetBeans IDE by Michael Vinson for practice purposes, as noted above, the example was originally formulated by Elliotte Rusty Harold.
 
 ### Development Environment
     * NetBeans 8.2
@@ -11,7 +11,7 @@ The DigestThread exmaple was coded using NetBeans IDE by Michael Vinson for prac
 
 ### Purpose:
     * DigestThread.java reads a file and prints out the 
-       SHA-256 message digest.
+      SHA-256 message digest.
 
 ### How to Run the DigestThread on Linux CLI:
     * Navagate to {PATH_TO}/DigestThread/build/classes
