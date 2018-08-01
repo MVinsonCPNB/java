@@ -15,10 +15,11 @@ OpenJDK 64-Bit Server VM (build 25.171-b10, mixed mode)
 
 [NetBeans IDE](https://netbeans.org/downloads/) 
 
+<!-- see https://www.ascii.cl/htmlcodes.htm for HTML Code Tables -->
 ### Basic Compile and Run Linux CLI Instructions
 <dl>
-  <dt>Compile alla project's .java files:</dt>
-  <dd>$ javac -d bin src/*.java<dd>
+  <dt>Compile a project's .java files:</dt>
+  <dd>$ javac -d bin src/&#42.java<dd>
   <dd>Compiles the .class files into the bin directory from a source directory</dd>
 
   <dt>Run a compiled .class file</dt>
