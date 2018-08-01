@@ -1,9 +1,9 @@
-### The DigestThread example can be studied in detail 
-### within the Java Network Programming 4th Edition book
-### written by Elliotte Rusty Harold
+DigestThread Example
+====================
 
-### The DigestThread exmaple was recoded into NetBeans
-### by Michael Vinson for practice purposes.
+The DigestThread example can be studied in detail within the Java Network Programming 4th Edition book, written by Elliotte Rusty Harold.
+ 
+The DigestThread exmaple was recoded into NetBeans by Michael Vinson for practice purposes.
 
 ### Development Environment
     * NetBeans 8.2
