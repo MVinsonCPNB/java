@@ -5,15 +5,11 @@ The Java example repository holds a varity of examples found either on the web o
 
 ### Current Development Environment
 
-OpenJDK version "1.8.0.171
+* [OpenJDK version "1.8.0.171](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-OpenJDK Runtime Environment (build 1.8.0_171-b10)
+* [Fedora-Workstation](https://getfedora.org/en/workstation/download/)
 
-OpenJDK 64-Bit Server VM (build 25.171-b10, mixed mode)
-
-[Fedora-Workstation](https://getfedora.org/en/workstation/download/)
-
-[NetBeans IDE](https://netbeans.org/downloads/) 
+* [NetBeans IDE](https://netbeans.org/downloads/) 
 
 <!-- see https://www.ascii.cl/htmlcodes.htm for HTML Code Tables -->
 ### Basic Compile and Run Linux CLI Instructions
