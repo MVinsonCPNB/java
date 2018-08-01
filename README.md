@@ -16,9 +16,11 @@ OpenJDK 64-Bit Server VM (build 25.171-b10, mixed mode)
 [NetBeans IDE](https://netbeans.org/downloads/) 
 
 ### Basic Compile and Run Linux CLI Instructions
-* To compile all .java files of a project:
-** $ javac -d bin src/*.java 
-** (above) compiles the .class files into the bin directory from a source directory
+<dl>
+  <dt>Compile alla project's .java files:</dt>
+  <dd>$ javac -d bin src/\*.java<dd>
+  <dd>Compiles the .class files into the bin directory from a source directory</dd>
 
-* To run a compiled .class file
-** $ java bin/<appName>
+  <dt>Run a compiled .class file</dt>
+  <dd> $ java bin/\<appName\></dd>
+</dl>
