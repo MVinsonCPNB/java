@@ -27,10 +27,10 @@ The DigestThread exmaple was coded using NetBeans IDE by Michael Vinson for prac
     * Instruct NetBeans to pass an agrument to the DigestThread app
     * Select File > Project Properties (DigestThread) > Run
     * Within the Arguments text box enter your computers path to 
-       the location of the projects text file used for the message digest. For
-       example, my path looks like: 
-        /home/{userName}/dev/java_apps/java_fundamentals/network_programming/DigestThread/build/classes/simpleTextFile.txt
-   * Click Run > Run Project
+      the location of the projects text file used for the message digest. For
+      example, my path looks like: 
+      /home/{userName}/dev/java_apps/java_fundamentals/network_programming/DigestThread/build/classes/simpleTextFile.txt
+    * Click Run > Run Project
 
 ### Outputs:
     * This message prints before the message digest thread output prints.
