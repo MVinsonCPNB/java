@@ -17,8 +17,8 @@ OpenJDK 64-Bit Server VM (build 25.171-b10, mixed mode)
 
 ### Basic Compile and Run Linux CLI Instructions
 * To compile all .java files of a project:
-$ javac -d bin src/*.java 
-(above) compiles the .class files into the bin directory from a source directory
+** $ javac -d bin src/*.java 
+** (above) compiles the .class files into the bin directory from a source directory
 
 * To run a compiled .class file
-$ java bin/<appName>
+** $ java bin/<appName>
