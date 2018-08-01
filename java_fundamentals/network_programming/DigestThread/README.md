@@ -1,9 +1,7 @@
 DigestThread Example
 ====================
 
-The DigestThread example can be studied in detail within the [Java Network Programming 4th Edition book](http://shop.oreilly.com/product/0636920028420.do), written by Elliotte Rusty Harold.
- 
-The DigestThread example re-coded using NetBeans IDE by Michael Vinson for practice purposes, as noted above, the example was originally formulated by Elliotte Rusty Harold.
+The DigestThread example can be studied in detail on page 56 within the [Java Network Programming 4th Edition book](http://shop.oreilly.com/product/0636920028420.do), written by Elliotte Rusty Harold. The code seen with this repository was recoded by Michael Vinson for practice and referencing purposes.
 
 ### Development Environment
     * NetBeans 8.2
