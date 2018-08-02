@@ -17,7 +17,7 @@ The DigestRunnable example can be studied in detail on page 59 within the [Java 
 
       Outputs:
         This message prints before the message digest thread output prints.
-        /home/mvinson/dev/java/java_fundamentals/network_programming/DigestRunnable/build/classes/simpleTextFile.txt:
+        simpleTextFile.txt:
          A1005764047C2BEF236090A800E5777E450CEA29F55F61EB32EE2F8B27A87D5C
         ---The original length of the digest byte stream is 32 bytes.
 
