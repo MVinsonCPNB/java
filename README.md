@@ -1,7 +1,7 @@
 Java Example Repository
 =======================
 
-The Java example repository holds a varity of examples found either on the web or in books. View the README files for references of who originally coded the examples and where to find them if applicatable.
+The Java repository holds a variety of examples found on either the web or in books. View the README files for references of who originally coded the examples and where to find them if applicatable.
 
 ### Current Development Environment
 
