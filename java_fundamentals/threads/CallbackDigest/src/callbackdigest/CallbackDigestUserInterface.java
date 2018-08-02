@@ -1,11 +1,11 @@
 /*
- * Example found on page 57
+ * Example found on page 63
  * Java Network Programming 
  * book written by: 
  * Elliotte Rusty Harold
  * 
  * Recoded by: Michael Vinson
- * Date: July 31, 2018
+ * Date: August 2, 2018
  */
 package callbackdigest;
 

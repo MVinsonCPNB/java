@@ -13,6 +13,7 @@ The CallbackDigest example can be studied in detail on page 65 within the [Java 
       method sleep while threads complete their run method. There are many ways to accomplish
       this other than using a callback structure. If the main method is required to check weather 
       or not the thread has completed its task, then the setup is inefficient.
+    * However, see InstanceCallbackDigest for a more common way of a callback solution.
 
 ### How to Run the CallbackDigest on Linux CLI:
     * Navagate to the .../dist/ directory
