@@ -1,1 +1,0 @@
-This is the text file used for the message digest thread.  If the project is clean built then this file gets deleted.

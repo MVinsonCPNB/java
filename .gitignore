@@ -7,3 +7,7 @@
 # nbactions.xml
 # nb-configuration.xml
 # build.xml
+/java_fundamentals/threads/DigestRunnable/build/
+/java_fundamentals/threads/DigestThread/build/
+/java_fundamentals/threads/CallbackDigest/nbproject/private/
+/java_fundamentals/threads/CallbackDigest/build/
