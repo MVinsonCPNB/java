@@ -30,7 +30,7 @@ public class DigestThread extends Thread {
     
     @Override
     public void run() {
-        System.out.println("TEst");
+        
         try {
             // FileInputStream reads streams of raw bytes such as image data
             FileInputStream in = new FileInputStream(filename);
@@ -63,6 +63,7 @@ public class DigestThread extends Thread {
     }
     
     public static void main(String[] args) {
+        
         for (String filename : args) {
             Thread t = new DigestThread(filename);
             t.start();
