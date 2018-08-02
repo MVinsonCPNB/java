@@ -1,7 +1,10 @@
 /*
- * Example found at Java Network Programming by 
+ * Example found on page 57
+ * Java Network Programming 
+ * book written by: 
  * Elliotte Rusty Harold
- * Coded by: Michael Vinson
+ * 
+ * Recoded by: Michael Vinson
  * Date: July 31, 2018
  */
 package digestthread;
@@ -27,6 +30,7 @@ public class DigestThread extends Thread {
     
     @Override
     public void run() {
+        System.out.println("TEst");
         try {
             // FileInputStream reads streams of raw bytes such as image data
             FileInputStream in = new FileInputStream(filename);
