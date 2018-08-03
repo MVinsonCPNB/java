@@ -1,0 +1,10 @@
+# NetBeans specific
+nbproject/
+nbbuild/
+nbdist/
+!dist
+nbactions.xml
+nb-configuration.xml
+build.xml
+*.mf
+*.swp

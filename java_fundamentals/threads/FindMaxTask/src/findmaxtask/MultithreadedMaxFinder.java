@@ -74,6 +74,7 @@ public class MultithreadedMaxFinder {
         return Math.max(future1.get(), future2.get());
     }
 
+    // use a single thread to search an array for a max integer value
     public static int max(int[] data) throws InterruptedException, ExecutionException {
          // Start the timmer now for multithread operation
         startTime2 = System.currentTimeMillis();

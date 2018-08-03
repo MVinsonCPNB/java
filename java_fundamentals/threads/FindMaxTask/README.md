@@ -17,8 +17,7 @@ The FindMaxTask example can be studied in detail on page 68 within the [Java Net
     * MultithreadedMaxFinder.max() uses two threads to search for the max 
       value within an array.
     * A timer mechanism was added to test if the multithreaded max search was 
-      faster than a single thread search. related to 
-      the setup of the ExecutorService.   
+      faster than a single thread search.   
     * The code is slightly modified from the book's example.
 
 ### How to Run the FindMaxTask on Linux CLI:
