@@ -7,16 +7,17 @@ The FindMaxTask example can be studied in detail on page 68 within the [Java Net
     * NetBeans 8.2
     * Operating System: Fedora 27:
     * JDK (verison 1.8.0_172-b11)-Java 8 SE 
-
+    
 ### Purpose:
     * Send Callable jobs to the ExecutorService which returns a Future.
       Ask the Future for a result, if ready will respond accordingly, if
-      the job is still running, the polling thread block until an result 
+      the job is still running, the polling thread blocks until a result 
       is returned.  
-    * FindMaxTask uses two threads to search an array of integers for the max
-      value.
+    * FindMaxTask searches an array of integers for the max value.
+    * MultithreadedMaxFinder.max() uses two threads to search for the max 
+      value within an array.
     * A timer mechanism was added to test if the multithreaded max search was 
-      faster than a single thread search.  The results are unforthcomming as 
+      faster than a single thread search. The results are unforthcomming as 
       it seems the time recorded during each process is directly related to 
       the setup of the ExecutorService. Both max search algorithms complete 
       at around 6 milliseconds. However, the example achieves substance
