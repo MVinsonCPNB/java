@@ -20,6 +20,7 @@ import javax.servlet.annotation.WebServlet;
 
 
 @WebServlet(name = "MyServlet", urlPatterns = {"/my"})
+
 public class MyServlet implements Servlet {
     private transient ServletConfig servletConfig;
     
@@ -41,10 +42,13 @@ public class MyServlet implements Servlet {
     @Override
     public void service(ServletRequest request, ServletResponse response)
             throws ServletException, IOException {
-        
+        // get the servlet's name
         String servletName = servletConfig.getServletName();
+        // set the serveltResponse type
         response.setContentType("text/html");
+        // get a writer to compose a response
         PrintWriter writer = response.getWriter();
+        // write an html page
         writer.print("<!DOCTYPE html>" 
                 + "<html>" 
                 + "<body>Hello from " + servletName
