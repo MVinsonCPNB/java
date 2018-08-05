@@ -29,7 +29,7 @@ The FindMaxTask example can be studied in detail on page 68 within the [Java Net
     * Output:
 
      *Run #1
-      To get a compairable reading the search for max-value methods will be run during seperate instnaces, 
+      To get a compairable reading the search for max-value methods will be run during seperate instances, 
       Press 1 for Multithread search for max value
       Press 2 for Singlethread search for max value
 
@@ -38,7 +38,7 @@ The FindMaxTask example can be studied in detail on page 68 within the [Java Net
       The multithreaded maxMT search took 6 milliseconds to compute.
 
      *Run #2
-      To get a compairable reading the search for max-value methods will be run during seperate instnaces, 
+      To get a compairable reading the search for max-value methods will be run during seperate instances, 
       Press 1 for Multithread search for max value
       Press 2 for Singlethread search for max value
 

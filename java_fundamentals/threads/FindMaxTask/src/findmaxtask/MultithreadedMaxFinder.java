@@ -109,7 +109,7 @@ public class MultithreadedMaxFinder {
           MultithreadedMaxFinder mmf = new MultithreadedMaxFinder();
  
           System.out.println("To get a compairable reading the search for max-"
-                  + "value methods will be run during seperate instnaces, "
+                  + "value methods will be run during seperate instances, "
                   + "\nPress 1 for Multithread search for max value"
                   + "\nPress 2 for Singlethread search for max value\n");
           
