@@ -1,14 +1,14 @@
-ServletApi2 Example
+ServletApi3 Example
 ====================
 
-The ServletApi2 example can be studied in detail at location 1010 of 7943 within
+The ServletApi3 example can be studied in detail at location 1010 of 7943 within
 the [Servlet & JSP: A Beginner's Tutorial](https://brainysoftware.com/9781771970327),
 written by Budi Kurniawan. The code seen with the java_fundamentals/web_servlets
 directory was recoded by Michael Vinson for practice and referencing purposes.
 
 ### Development Environment
     * NetBeans 8.2 with Java-EE bundle
-    * Operating System: Fedora 27: JDK (verison 1.8.0_172-b11)
+    * Operating System: Fedora 27: JDK (verison 1.8.0)
     * Servlet/JSP Container: Apache-Tomcat-8.0.27
 
 ### Purpose:
@@ -20,7 +20,7 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
       not have an equivalent. 
 
 ### Run the Project in NetBeans
-    * To run a servlet, Access the Projects Tab -> ServletApi2 -> src -> java ->
-      ServletApi2 -> FormServlet.java, then right click and select
+    * To run a servlet, Access the Projects Tab -> ServletApi3 -> src -> java ->
+      ServletApi3 -> <servletName>.java, then right click and select
       Run File.
 
