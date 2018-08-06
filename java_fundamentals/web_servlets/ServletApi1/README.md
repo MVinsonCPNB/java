@@ -18,8 +18,16 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
       parameters to the servlet container, which then passes these configuration
       parameters to the servlet's init method thereby making the variables admin
       and email available within the servlet.  For example, the variables are
-      accessed as follows: servletConfig.getInitParameter("admin");   
-
+      accessed as follows: servletConfig.getInitParameter("admin");
+    * servletapi1.GenericServletDemoServlet.java show how unlike the 
+      ServletConfigDemoServlet.java example, using the GenericServlet class 
+      keep you have having to override all methods of the Servlet class. Using 
+      getServletConfig you can get the ServletConfig from the GenericServlet 
+      method. Using the abstract GenericServlet class helps in reducing the 
+      amount of code needed.
+    * An HttpServlet overrides the GenericServlet class and is used when working
+      with HTTP requests to stream line the code. View ServletApi2 for more 
+      info.
 
 ### Run the Project in NetBeans
     * Click the Run -> Run Project, this loads the ServletApi1 index.hmtl page
