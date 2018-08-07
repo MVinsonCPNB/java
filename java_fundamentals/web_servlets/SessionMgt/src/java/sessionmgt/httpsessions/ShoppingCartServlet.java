@@ -170,7 +170,7 @@ public class ShoppingCartServlet extends HttpServlet {
         PrintWriter writer = response.getWriter();
         writer.println("<!DOCTYPE html>"
             + "<html><head><title>Shopping Cart</title>"
-            + "<style>table, td {border:1px solid green;}</style>"
+            + "<style>table, td {border:2px solid green;}</style>"
             + "</head>");
         writer.println("<body><a href='products'>" 
         + "Product List</a>");
