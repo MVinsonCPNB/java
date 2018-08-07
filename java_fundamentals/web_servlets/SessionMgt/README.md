@@ -23,6 +23,15 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
       value still shows up in the URL upon redirect. The example also shows how
       to have one Servlet manage multiple URL requests, such as: "/customer", 
       "/editCustomer", "/updateCustomer". 
+    * src/java/sessionmgt/cookie.PreferenceServlet.java sends a form to screen,
+      where a user selects data to get stored as a cookie within their browser.
+      Previous cookies are deleted and updated were needed. The stored variables
+      are maxRecords, titleFontSize, titleFontStyle, and titleFontWeight. Also,
+      with CookieClassServlet and CookieInfoServlet the stored values are used
+      to modify the page formating and provide data to the webpage.
+    * src/java/sessionmgt/ShoppingCarServlet.java is a mock online store with 
+      four products. Using a shopping cart style process a user can add products
+      to and view them, all using HttpSession variables.
 
 
 ### Run the Project in NetBeans
