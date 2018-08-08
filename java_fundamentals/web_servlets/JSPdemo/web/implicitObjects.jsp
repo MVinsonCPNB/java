@@ -1,5 +1,4 @@
 <%-- 
-    Document   : welcome
  * Example found on location 1994 of 7943
  * Servlet & JSP: A Beginner's Tutorial 
  * e-book written by: 
