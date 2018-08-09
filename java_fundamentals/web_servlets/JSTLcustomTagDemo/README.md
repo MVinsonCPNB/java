@@ -16,14 +16,14 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
 * Write custom Java Standard Tag Library (JSTL) tags
 * src/java/customtagsdemo/MyFirstTag.java is a class that implements the
   SimpleTag interface and defines actions to be done when invoked.
-* web/WEB-INF/tlds/mytags.tld is an XML file when defines the name and locaiton
+* web/WEB-INF/tlds/mytags.tld is an XML file used to define the name and locaiton
   of the MyFirstTag class.
 * web/firstTagTest.jsp declares <%@ taglib uri="/WEB-INF/tlds/mytags.tld" 
   prefix="easy"%> and uses the new tag within the jsp.
 
 ### Run the Project in NetBeans
 * To run a JSP, start the JSP container and access the pages directly using the 
-  URL, such as, http://localhost:8084/JSTLcustomTagDemo/firstTagTest.jsp.
+  URL, such as,\http://localhost:8084/JSTLcustomTagDemo/firstTagTest.jsp.
 
 ### Setup NetBeans 8 project with JSTL 1.2.2
 * In order to use JSTL in Netbeans 8 right click the library directory under
