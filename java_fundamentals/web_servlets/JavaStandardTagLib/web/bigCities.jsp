@@ -10,6 +10,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
 <!DOCTYPE html>
 <html>
@@ -56,5 +57,11 @@
                 </tr>
             </c:forEach>
         </table>
+        
+        <br/>
+        <c:set var="myDate" value="8/9/2018"/>
+        <fmt:parseDate var="formattedDate" type="date"
+                       dateStyle="short" value="${myDate}"/>
+        <c:out value="${formattedDate}" />
     </body>
 </html>

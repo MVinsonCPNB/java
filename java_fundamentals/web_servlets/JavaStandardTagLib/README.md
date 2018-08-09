@@ -1,7 +1,7 @@
-JSPdemo Example
+JSTL-Java Standard Tag Library Example
 ====================
 
-The JSPdemo example can be studied in detail at location 3112 of 7943 within
+The JSTL-Java Standard Tag Library example can be studied in detail at location 3112 of 7943 within
 the [Servlet & JSP: A Beginner's Tutorial](https://brainysoftware.com/9781771970327),
 written by Budi Kurniawan. The code seen with the java_fundamentals/web_servlets
 directory was recoded by Michael Vinson for practice and referencing purposes.
@@ -29,6 +29,6 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
     the Projects tag, and add JSTL 1.2.2 to the project.
 * Add <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> to 
   all .jsp to access <c:forEach ... ect.
-* See [Install JSTL Library Instructiosn](https://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm)
+* See [Install JSTL Library Instructions](https://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm)
 
 

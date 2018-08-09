@@ -1,7 +1,7 @@
-JSPdemo Example
+Express Language Example
 ====================
 
-The JSPdemo example can be studied in detail at location 1819 of 7943 within
+The Express Language example can be studied in detail at location 1819 of 7943 within
 the [Servlet & JSP: A Beginner's Tutorial](https://brainysoftware.com/9781771970327),
 written by Budi Kurniawan. The code seen with the java_fundamentals/web_servlets
 directory was recoded by Michael Vinson for practice and referencing purposes.
@@ -21,5 +21,5 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
 
 ### Run the Project in NetBeans
 * To run a JSP, start the JSP container and access the pages directly using the 
-  URL, such as, "http://localhost:8084/JSPdemo/todaysDate.jsp".
+  URL, such as, "http://localhost:8084/Express Language/todaysDate.jsp".
 
