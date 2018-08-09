@@ -23,7 +23,7 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
 
 ### Run the Project in NetBeans
 * To run a JSP, start the JSP container and access the pages directly using the 
-  URL, such as,http://<span></span>localhost:8084/JSTLcustomTagDemo/firstTagTest.jsp.
+  URL, such as, http://<span></span>localhost:8084/JSTLcustomTagDemo/firstTagTest.jsp.
 
 ### Setup NetBeans 8 project with JSTL 1.2.2
 * In order to use JSTL in Netbeans 8 right click the library directory under
