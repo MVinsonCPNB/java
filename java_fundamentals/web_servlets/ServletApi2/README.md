@@ -7,16 +7,16 @@ written by Budi Kurniawan. The code seen with the java_fundamentals/web_servlets
 directory was recoded by Michael Vinson for practice and referencing purposes.
 
 ### Development Environment
-    * NetBeans 8.2 with Java-EE bundle
-    * Operating System: Fedora 27: JDK (verison 1.8.0_172-b11)
-    * Servlet/JSP Container: Apache-Tomcat-8.0.27
+* NetBeans 8.2 with Java-EE bundle
+* Operating System: Fedora 27: JDK (verison 1.8.0_172-b11)
+* Servlet/JSP Container: Apache-Tomcat-8.0.27
 
 ### Purpose:
-    * src/java/servletapi2/FormServlet.java will send an HTML form to the 
-      browser and get back user entered data. 
+* src/java/servletapi2/FormServlet.java will send an HTML form to the 
+  browser and get back user entered data. 
 
 ### Run the Project in NetBeans
-    * To run a servlet, Access the Projects Tab -> ServletApi2 -> src -> java ->
-      ServletApi2 -> FormServlet.java, then right click and select
-      Run File.
+* To run a servlet, Access the Projects Tab -> ServletApi2 -> src -> java ->
+  ServletApi2 -> FormServlet.java, then right click and select
+  Run File.
 

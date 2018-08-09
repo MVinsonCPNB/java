@@ -7,34 +7,34 @@ written by Budi Kurniawan. The code seen with the java_fundamentals/web_servlets
 directory was recoded by Michael Vinson for practice and referencing purposes.
 
 ### Development Environment
-    * NetBeans 8.2 with Java-EE bundle
-    * Operating System: Fedora 27: JDK (verison 1.8.0_172-b11)
-    * Servlet/JSP Container: Apache-Tomcat-8.0.27
+* NetBeans 8.2 with Java-EE bundle
+* Operating System: Fedora 27: JDK (verison 1.8.0_172-b11)
+* Servlet/JSP Container: Apache-Tomcat-8.0.27
 
 ### Purpose:
-    * servletapi1.MyServlet.java demonstrates how to implement the Servlet 
-      interface.
-    * servletapi1.ServletConfigDemo.java demonstrates how to pass initial
-      parameters to the servlet container, which then passes these configuration
-      parameters to the servlet's init method thereby making the variables admin
-      and email available within the servlet.  For example, the variables are
-      accessed as follows: servletConfig.getInitParameter("admin");
-    * servletapi1.GenericServletDemoServlet.java show how unlike the 
-      ServletConfigDemoServlet.java example, using the GenericServlet class 
-      keep you have having to override all methods of the Servlet class. Using 
-      getServletConfig you can get the ServletConfig from the GenericServlet 
-      method. Using the abstract GenericServlet class helps in reducing the 
-      amount of code needed.
-    * An HttpServlet overrides the GenericServlet class and is used when working
-      with HTTP requests to stream line the code. View ServletApi2 for more 
-      info.
+* servletapi1.MyServlet.java demonstrates how to implement the Servlet 
+  interface.
+* servletapi1.ServletConfigDemo.java demonstrates how to pass initial
+  parameters to the servlet container, which then passes these configuration
+  parameters to the servlet's init method thereby making the variables admin
+  and email available within the servlet.  For example, the variables are
+  accessed as follows: servletConfig.getInitParameter("admin");
+* servletapi1.GenericServletDemoServlet.java show how unlike the 
+  ServletConfigDemoServlet.java example, using the GenericServlet class 
+  keep you have having to override all methods of the Servlet class. Using 
+  getServletConfig you can get the ServletConfig from the GenericServlet 
+  method. Using the abstract GenericServlet class helps in reducing the 
+  amount of code needed.
+* An HttpServlet overrides the GenericServlet class and is used when working
+  with HTTP requests to stream line the code. View ServletApi2 for more 
+  info.
 
 ### Run the Project in NetBeans
-    * Click the Run -> Run Project, this loads the ServletApi1 index.hmtl page
-    * To run a servlet, Access the Projects Tab -> ServletApi1 -> src -> java ->
-      servletapi1 -> ServletConfigDemoServlet.java, then right click and select
-      Run File.
+* Click the Run -> Run Project, this loads the ServletApi1 index.hmtl page
+* To run a servlet, Access the Projects Tab -> ServletApi1 -> src -> java ->
+  servletapi1 -> ServletConfigDemoServlet.java, then right click and select
+  Run File.
 
-    * Outputs:
-        Admin:Harry Taciak
-        Email:admin@example.com
+* Outputs:
+    Admin:Harry Taciak
+    Email:admin@example.com
