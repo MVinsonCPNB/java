@@ -28,7 +28,7 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
 ### Setup NetBeans 8 project with JSTL 1.2.2
 * In order to use JSTL in Netbeans 8 right click the library directory under
     the Projects tag, and add JSTL 1.2.2 to the project.
-* Add <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> to 
+* Add <%@ taglib uri="http://<span></span>java.sun.com/jsp/jstl/core" prefix="c" %> to 
   all .jsp to access <c:forEach ... ect.
 * See [Install JSTL Library Instructions](https://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm)
 

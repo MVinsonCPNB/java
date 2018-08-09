@@ -22,12 +22,12 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
 
 ### Run the Project in NetBeans
 * To run a JSP, start the JSP container and access the pages directly using the 
-  URL, such as, "http://localhost:8084/JavaStandardTagLib/books".
+  URL, such as, "http://l<span></span>ocalhost:8084/JavaStandardTagLib/books".
 
 ### Setup NetBeans 8 project with JSTL 1.2.2
 * In order to use JSTL in Netbeans 8 right click the library directory under
     the Projects tag, and add JSTL 1.2.2 to the project.
-* Add <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> to 
+* Add <%@ taglib uri="http://j<span></span>ava.sun.com/jsp/jstl/core" prefix="c" %> to 
   all .jsp to access <c:forEach ... ect.
 * See [Install JSTL Library Instructions](https://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm)
 
