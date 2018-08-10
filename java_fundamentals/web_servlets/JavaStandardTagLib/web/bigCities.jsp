@@ -11,6 +11,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@ taglib uri="http://example.com/taglib/function" prefix="f" %>
 
 <!DOCTYPE html>
 <html>
@@ -63,5 +64,8 @@
         <fmt:parseDate var="formattedDate" type="date"
                        dateStyle="short" value="${myDate}"/>
         <c:out value="${formattedDate}" />
+        
+        <h3>This is the added .jar file from a custom compiled EL tag</h3>
+        ${f:reverseString("Finally after 2 hours it works!!!  This jar file was imported and comiled from a custom tag built in the Elcustom TagDemo project")}
     </body>
 </html>

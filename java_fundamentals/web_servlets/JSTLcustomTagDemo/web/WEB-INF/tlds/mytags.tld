@@ -7,6 +7,27 @@
       <tag-class>customtagsdemo.MyFirstTag</tag-class>
       <body-content>empty</body-content>
   </tag>
+  
+  <tag>
+      <name>dataFormatter</name>
+      <tag-class>customtagsdemo.DataFormatterTag</tag-class>
+      <body-content>empty</body-content>
+      <attribute>
+          <name>header</name>
+          <required>true</required>
+      </attribute>
+      <attribute>
+          <name>items</name>
+          <required>true</required>
+      </attribute>
+  </tag>
+  
+  <tag>
+      <name>select</name>
+      <tag-class>customtagsdemo.SelectElementTag</tag-class>
+      <body-content>scriptless</body-content>
+  </tag>
+  
   <uri>/WEB-INF/tlds/mytags</uri>
   <!-- A validator verifies that the tags are used correctly at JSP
           translation time. Validator entries look like this: 

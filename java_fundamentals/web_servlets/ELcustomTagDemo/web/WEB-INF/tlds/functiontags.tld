@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+    <!-- defining an absolute tag descriptor, before packing as a .jar -->
+  <uri>http://example.com/taglib/function</uri>
+  
+  <short-name>functiontags</short-name>
+  
+  <description>
+      Function tag examples
+  </description>
+  <function>
+      <description>Reverses a String</description>
+      <name>reverseString</name>
+      <function-class>function.StringFunction</function-class>
+      <function-signature>
+          java.lang.String reverseString(java.lang.String)
+      </function-signature>
+  </function>
+
+</taglib>

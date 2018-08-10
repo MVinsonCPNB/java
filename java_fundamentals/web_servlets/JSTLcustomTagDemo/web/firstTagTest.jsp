@@ -19,6 +19,26 @@
     <body>
         Hello!!!
         <br/>
-    <easy:firstTag></easy:firstTag>
+    
+        <easy:firstTag></easy:firstTag>
+        <h3>Testing DataFormatterTag</h3>
+        
+        <%-- compate version of tag call --%>
+        <easy:dataFormatter header="states"
+                            items="Alabama,Alaska,Georgia,Florida"/>
+        <br/>
+        
+        <easy:dataFormatter header="Countries">
+            <jsp:attribute name="items">
+                US,UK,Canada,France
+            </jsp:attribute>
+        </easy:dataFormatter>
+
+        <br>
+        
+        <h3>Testing SelectElementFormatterTag</h3>
+        <easy:select>
+            <option value="${value}">${text}</option>
+        </easy:select>
     </body>
 </html>

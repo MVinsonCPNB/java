@@ -1,8 +1,8 @@
 JSTL-Java Standard Tag Library Example
 ====================
 
-The JSTL-Java Standard Tag Library example can be studied in detail at location 3112 of 7943 within
-the [Servlet & JSP: A Beginner's Tutorial](https://brainysoftware.com/9781771970327),
+The JSTL-Java Standard Tag Library example can be studied in detail at location 
+3112 of 7943 within the [Servlet & JSP: A Beginner's Tutorial](https://brainysoftware.com/9781771970327),
 written by Budi Kurniawan. The code seen with the java_fundamentals/web_servlets
 directory was recoded by Michael Vinson for practice and referencing purposes.
 
@@ -20,16 +20,12 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
   of the MyFirstTag class.
 * web/firstTagTest.jsp declares <%@ taglib uri="/WEB-INF/tlds/mytags.tld" 
   prefix="easy"%> and uses the new tag within the jsp.
+* src/java/customtagsdemo/DataFormatterTag.java is a tag which accepts to 
+  parameters, a header and a list, then prints out a table named with the header
+  and the lists contents.
+* src/java.customtagsdemo/SelectElementTag will manipulate the tag body via the 
+  JspFragment passed by the JSP container. 
 
 ### Run the Project in NetBeans
 * To run a JSP, start the JSP container and access the pages directly using the 
   URL, such as, http://<span></span>localhost:8084/JSTLcustomTagDemo/firstTagTest.jsp.
-
-### Setup NetBeans 8 project with JSTL 1.2.2
-* In order to use JSTL in Netbeans 8 right click the library directory under
-    the Projects tag, and add JSTL 1.2.2 to the project.
-* Add <%@ taglib uri="http://<span></span>java.sun.com/jsp/jstl/core" prefix="c" %> to 
-  all .jsp to access <c:forEach ... ect.
-* See [Install JSTL Library Instructions](https://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm)
-
-
