@@ -66,6 +66,6 @@
         <c:out value="${formattedDate}" />
         
         <h3>This is the added .jar file from a custom compiled EL tag</h3>
-        ${f:reverseString("Finally after 2 hours it works!!!  This jar file was imported and comiled from a custom tag built in the Elcustom TagDemo project")}
+        ${f:reverseString("Finally after 2 hours it works!!!  This jar file was imported and compiled from a custom tag designed in the ElcustomTagDemo project")}
     </body>
 </html>
