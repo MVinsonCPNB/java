@@ -12,13 +12,19 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
 * Servlet/JSP Container: Apache-Tomcat-8.0.27
 
 ### Purpose:
-* Java Standard Tag Library (JSTL)
+* Using the Java Standard Tag Library (JSTL) a servlet is requested by the 
+  browser, the servlet then creates objects, attaches them to an 
+  httpServlet.request, which is accessed on within the .jsp, which is loaded 
+  by the servlet.
 * src/BooksServlet.java creates a list of books, then passes the list using the 
   RequestDispatcher to the /books.jsp. Once redirected to /books.jsp, JSTL is
   syntax is used to access, iterate, and display the contents of the list.
-* src/BigCitiesServlet.java creats a Map of capitals and a HashMap of a listing
+* src/BigCitiesServlet.java creates a Map of capitals and a HashMap of a listing
   of coutries big cities. It then passes these objects to the bigCities.jsp
-  where the objects are printed to screen using EL and JSTL syntax.
+  where the objects are printed to screen using EL and JSTL syntax.  Note: 
+  using a custom tag created in the ELcustomTagDemo project, a .jar was compiled
+  and referenced using <%@ taglib uri="http://example.com/taglib/function" 
+  prefix="f" %>.  Instruction on how to compile a tag.jar file is found [here](https://github.com/MVinsonCPNB/java/tree/master/java_fundamentals/web_servlets/ELcustomTagDemo)
 
 ### Run the Project in NetBeans
 * To run a JSP, start the JSP container and access the pages directly using the 

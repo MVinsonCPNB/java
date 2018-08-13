@@ -15,7 +15,7 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
 ### Purpose:
 * Write custom Expression Language function to call within a JSP
 * src/java/function/StringFunction.java declares a class which accepts one 
-  string parameter and returns it backwards.
+  string parameter and returns it printed backwards.
 * web/WEB-INF/tlds/functiontags.tld defines a the class in XML format so it can
   be referenced within a JSP.
 * web/reverse.jsp links the taglibrary for use in the HTML code.
@@ -32,12 +32,14 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
 * Create a manifest.txt file with the contents: Main-class: StringFunction
    --------- Note must end the manifest file with a newline
 * The staging file hierarchy should look like: 
-  staging ---|
-             function ---|
-             |           StringFunction.class  
-             META-INF ---|
-             |           functiontags.tld
-             manifest.txt
+```
+staging directory ---|
+                     --function -----|
+                     |               StringFunction.class  
+                     --META-INF -----|
+                     |               functiontags.tld
+                     --manifest.txt
+```
 * Note: Within the functiontags.tld there should be a unique <uri>, for example,
   <uri>http://example.com/taglib/function</uri>
 * Compile the staging area with the terminal command:
