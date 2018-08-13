@@ -40,7 +40,7 @@ staging directory ---|
                      |               functiontags.tld
                      --manifest.txt
 ```
-* Note: Within the functiontags.tld there should be a unique <uri>, for example,
+* Note: Within the functiontags.tld there should be a unique \<uri\>, for example,
   <uri>http://example.com/taglib/function</uri>
 * Compile the staging area with the terminal command:
   jar cvfm mytags.jar manifest.txt function/StringFunction.class META-INF/functiontags.tld
