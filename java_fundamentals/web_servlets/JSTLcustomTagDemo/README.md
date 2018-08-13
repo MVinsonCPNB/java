@@ -20,7 +20,7 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
   of the MyFirstTag class.
 * web/firstTagTest.jsp declares <%@ taglib uri="/WEB-INF/tlds/mytags.tld" 
   prefix="easy"%> and uses the new tag within the jsp.
-* src/java/customtagsdemo/DataFormatterTag.java is a tag which accepts to 
+* src/java/customtagsdemo/DataFormatterTag.java is a tag which accepts two 
   parameters, a header and a list, then prints out a table named with the header
   and the lists contents.
 * src/java.customtagsdemo/SelectElementTag will manipulate the tag body via the 
