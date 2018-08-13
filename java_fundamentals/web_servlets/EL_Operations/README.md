@@ -21,5 +21,5 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
 
 ### Run the Project in NetBeans
 * To run a JSP, start the JSP container and access the pages directly using the 
-  URL, such as, "http://localhost:8084/Express Language/todaysDate.jsp".
+  URL, such as, "http://<span></span>localhost:8084/Express Language/todaysDate.jsp".
 

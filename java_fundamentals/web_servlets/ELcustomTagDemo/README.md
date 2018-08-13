@@ -1,5 +1,5 @@
-JSTL-Java Standard Tag Library Example
-====================
+Custom Expression Language Tag Function
+=======================================
 
 The JSTL-Java Standard Tag Library example can be studied in detail at location 
 3892 of 7943 within the [Servlet & JSP: A Beginner's Tutorial](https://brainysoftware.com/9781771970327),
@@ -24,7 +24,8 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
 * To run a JSP, start the JSP container and access the pages directly using the 
   URL, such as, http://<span></span>localhost:8084/ELcustomTagDemo/reverse.jsp.
 
-### How to compile a .jar file for use in another project
+### How to compile a Custom Expression Language function.jar file for use in 
+    another project
 * Copy function/StringFunciton.java into a staging area. Compile the file
   using terminal, such as, javac funciton/StringFunction.java
 * Copy web/WEB-INF/tlds/functiontags.tld into a file within the staging area
