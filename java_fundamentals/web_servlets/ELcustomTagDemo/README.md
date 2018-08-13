@@ -46,7 +46,7 @@ staging directory ---|
   jar cvfm mytags.jar manifest.txt function/StringFunction.class META-INF/functiontags.tld
 * Now place the mytags.jar file in a projects web/WEB-INF/lib folder and you can 
   reference it by using: 
-    <%@ taglib uri="http://example.com/taglib/function" prefix="f" %>
+    <%@ taglib uri="<span></span>http://example.com/taglib/function" prefix="f" %>
   At the top of the page like any JSTL tag library descriptor.
 * For more about custom tags see location 3951.
 
