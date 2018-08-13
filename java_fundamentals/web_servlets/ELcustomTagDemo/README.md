@@ -22,7 +22,7 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
 
 ### Run the Project in NetBeans
 * To run a JSP, start the JSP container and access the pages directly using the 
-  URL, such as, http://<span></span>http://localhost:8084/ELcustomTagDemo/reverse.jsp.
+  URL, such as, http://<span></span>localhost:8084/ELcustomTagDemo/reverse.jsp.
 
 ### How to compile a .jar file for use in another project
 * Copy function/StringFunciton.java into a staging area. Compile the file
@@ -46,7 +46,7 @@ staging directory ---|
   jar cvfm mytags.jar manifest.txt function/StringFunction.class META-INF/functiontags.tld
 * Now place the mytags.jar file in a projects web/WEB-INF/lib folder and you can 
   reference it by using: 
-    <%@ taglib uri="<span></span>http://example.com/taglib/function" prefix="f" %>
+    <%@ taglib uri="http://<span></span>example.com/taglib/function" prefix="f" %>
   At the top of the page like any JSTL tag library descriptor.
 * For more about custom tags see location 3951.
 
