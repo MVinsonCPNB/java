@@ -1,7 +1,7 @@
 JSP Tag File Demo
 =======================================
 
-The JSTL-Java Standard Tag Library example can be studied in detail at location 
+The JSP Tag File Demo example can be studied in detail at location 
 3991 of 7943 within the [Servlet & JSP: A Beginner's Tutorial](https://brainysoftware.com/9781771970327),
 written by Budi Kurniawan. The code seen with the java_fundamentals/web_servlets
 directory was recoded by Michael Vinson for practice and referencing purposes.
