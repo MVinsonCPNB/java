@@ -1,7 +1,7 @@
 AppDesign2 Example
 ==================
 
-The AppDesign2 example can be studied in detail at location 4287 of 7943 within
+The AppDesign2 example can be studied in detail at location 5318 of 7943 within
 the [Servlet & JSP: A Beginner's Tutorial](https://brainysoftware.com/9781771970327),
 written by Budi Kurniawan. The code seen with the java_fundamentals/web_servlets
 directory was recoded by Michael Vinson for practice and referencing purposes.
@@ -11,7 +11,7 @@ directory was recoded by Michael Vinson for practice and referencing purposes.
 * Operating System: Fedora 27: JDK (verison 1.8.0_172-b11)
 * Servlet/JSP Container: Apache-Tomcat-8.0.27
 
-### Purpose:
+### Purpose
 * The AppDesign2 example uses a Model 2 framework. The src/java/appdesign2/
   filter/DispatcherFilter.java intercepts URI requests from a browser using
   the @WebServlet annotation. From there, the URI is broken apart and an action
